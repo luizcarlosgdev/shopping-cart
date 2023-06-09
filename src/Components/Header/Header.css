@@ -1,0 +1,19 @@
+.header {
+  background-color: #fff159;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+/* usando o sinal de maior estamos pegando a primeira div filha de header */
+.header > div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+
+.header > button {
+  background-color: none;
+  border: none;
+}
